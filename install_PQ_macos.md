@@ -10,7 +10,7 @@ The following instructions are for installing Prompt Quill using Docker, Llama-I
 ### Docker/Llama-Index/qdrant Setup
 1. If you don't already have it, install Docker Desktop: https://docs.docker.com/desktop/install/mac-install/ 
     - Once installed, close and reopen Terminal to ensure it recognizes Docker being added to your machine.
-2. From the `prompt_quill` folder you cloned Prompt Quill into, `cd /docker/qdrant` to get to the folder containing the `docker_compose.yaml` file. 
+2. From the `prompt_quill` folder you cloned Prompt Quill into, `cd docker/qdrant` to get to the folder containing the `docker_compose.yaml` file. 
 3. `docker compose up` to create the new docker container for qdrant.
 4. Once the docker container is installed (you should see it running in Docker Desktop's dashboard), open a browser tab to http://localhost:6333/dashboard
 5. Click `Upload Snapshot`, name the new Collection `prompts_large_meta`, then select the .snapshot file you downloaded and unzipped from CivitAI during the First Steps. Wait for the import to complete before continuing. 
