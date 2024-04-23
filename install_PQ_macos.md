@@ -25,7 +25,7 @@ The following instructions are for installing Prompt Quill using Docker, Llama-I
 6. Start Prompt Quill with `python3 pq/prompt_quill_ui_qdrant.py`, it should open into a browser window automatically. You can also open it yourself at http://localhost:1337 if necessary.
 7. To shutdown, simply close the terminal window that has the Prompt Quill logs active, and stop the Docker container for qdrant. 
 
-#### Starting Prompt Quill
+## Starting Prompt Quill
 
 Once you have Prompt Quill installed, to do a clean startup in the future follow these steps: 
 
